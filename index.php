@@ -118,7 +118,23 @@ foreach ($result as $row)
     </div>
 </div>
 <?php endif; ?>
+<div class="product pt_50 pb_50">
+    <div class="container">
+       
+            
+      
+                   
+                <nav1>
+      <a class="icon blue" href="#"><i class="fa fa-spray-can"></i></a>
+      <a class="icon orange" href="#">🔮</a>
+      <a class="icon purple" href="#">🪄</a>
+      <a class="icon yellow" href="#">🎁</a>
+      <a class="icon green" href="#">🧸</a>
+   </nav1>
 
+        
+            </div>
+            </div>
 <?php if($home_featured_product_on_off == 1): ?>
 <div class="product pt_70 pb_70">
     <div class="container">

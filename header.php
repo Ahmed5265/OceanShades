@@ -285,7 +285,7 @@ foreach ($result as $row) {
 			</div>
 			
 			
-			<div class="col-md-5 search-area">
+			<div class="col-md-4 search-area">
 				<form class="navbar-form navbar-left" role="search" action="search-result.php" method="get">
 					<?php $csrf->echoInputField(); ?>
 					<div class="form-group">
@@ -300,8 +300,8 @@ foreach ($result as $row) {
 					<?php
 					if(isset($_SESSION['customer'])) {
 						?>
-						<li><i class="fa fa-user"></i> <?php echo $_SESSION['customer']['cust_name']; ?></li>
-						<li><a href="dashboard.php"><i class="fa fa-home"></i> <?php echo LANG_VALUE_89; ?></a></li>
+						<li><a href="dashboard.php"><i class="fa fa-user"></i> <?php echo $_SESSION['customer']['cust_name']; ?></a></li>
+						<li><a href="logout.php"><i class="fa fa-sign-out"></i> Logout</a></li>
 						<?php
 					} else {
 						?>

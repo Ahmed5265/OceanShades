@@ -123,7 +123,7 @@ if( !isset($_REQUEST['id']) || !isset($_REQUEST['type']) ) {
 
 <div class="page-banner" style="background-image: url(assets/uploads/<?php echo $banner_product_category; ?>)">
     <div class="inner">
-        <h1><?php echo LANG_VALUE_50; ?> <?php echo $title; ?></h1>
+        <h1 class="h1_odd"><?php echo $title; ?></h1>
     </div>
 </div>
 
