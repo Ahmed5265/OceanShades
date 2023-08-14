@@ -2276,11 +2276,10 @@ nav1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #161616;
-  gap: 3px;
+  gap: 60px;
   border-radius: var(--border-radius);
   position: relative;
-  height: 60px;
+  height: 100px;
   padding: 6px;
 
   &>a {
@@ -2289,8 +2288,8 @@ nav1 {
     align-items: center;
     border-radius: var(--border-radius);
     transition: all .2s ease-in-out;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     text-decoration: none;
     font-size: 30px;
 
@@ -2330,3 +2329,5 @@ nav1 {
 .orange {
   background: linear-gradient(60deg, rgb(255, 165, 0), rgb(212, 0, 255));
 }
+
+/* 000000000000 */
