@@ -59,7 +59,7 @@ foreach ($result as $row)
         $result = $statement->fetchAll(PDO::FETCH_ASSOC);                            
         foreach ($result as $row) {            
             ?>
-            <div class="item <?php if($i==0) {echo 'active';} ?>" style="background-image:url(assets/uploads/<?php echo $row['photo']; ?>);">
+            <div class="item <?php if($i==0) {echo 'active';} ?>" style="background-image:url(assets/uploads/<?php echo $row['photo']; ?>); background-repeat: no-repeat;background-size: 100% 500px;">
                 <div class="bs-slider-overlay"></div>
                 <div class="container">
                     <div class="row">
@@ -92,18 +92,18 @@ foreach ($result as $row)
 </div>
 <div class="product pt_50 pb_50">
     <div class="container">
-       
-            
-      
-                   
-                <nav1>
-      <a class="icon black" href="#"><img height="80" src="https://www.iconarchive.com/download/i144123/iconarchive/mothers-day/Perfume.1024.png" alt=""></a>
-      <a class="icon yellow" href="#">🎁</a>
-      <a class="icon green" href="#">🧸</a>
-   </nav1>
 
-        
-            </div>
+                <nav1 class="row">
+      <a class="icon" href="product-category.php?id=7&type=top-category"><img height="80" src="assets/img/cat_2.jpg" alt=""></a>
+      <a class="icon" href="product-category.php?id=8&type=top-category"><img height="80" src="assets/img/cat_1.jpg" alt=""></a>
+      <a class="icon" href="product-category.php?id=9&type=top-category"><img height="80" src="assets/img/cat_3.jpg" alt=""></a>
+      <a class="icon" href="product-category.php?id=10&type=top-category"><img height="80" src="assets/img/cat_4.jpg" alt=""></a>
+      <a class="icon" href="product-category.php?id=11&type=top-category"><img height="80" src="assets/img/cat_5.jpg" alt=""></a>
+      <a class="icon" href="product-category.php?id=12&type=top-category"><img height="80" src="assets/img/cat_6.jpg" alt=""></a>
+   </nav1>
+   
+</div>
+</div>
 
 <?php if($home_service_on_off == 1): ?>
 <div class="service bg-gray">
